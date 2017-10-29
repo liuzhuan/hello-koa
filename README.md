@@ -1,13 +1,5 @@
-# hello-koa
-Learn Koa ABC
+# Hello Koa
 
-[READ](./SUMMARY.md)
+koa 是由 Express 原班人马打造的，致力于成为一个更小、更富有表现力、更健壮的 Web 框架。使用 koa 编写 web 应用，通过组合不同的 generator，可以免除重复繁琐的回调函数嵌套，并极大地提升错误处理的效率。koa 不在内核方法中绑定任何中间件，它仅仅提供了一个轻量优雅的函数库，使得编写 Web 应用变得得心应手。
 
-## REF
-
-- http://koajs.com/
-- https://github.com/koajs/koa
-  - https://github.com/koajs/koa/blob/master/docs/migration.md
-- https://code.tutsplus.com/series/introduction-to-generators-koajs--cms-690
-  - https://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615
-  - https://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756
+[继续阅读](./SUMMARY.md)

@@ -20,7 +20,26 @@ context 的很多属性和方法其实都会调用底层的 `ctx.request` 或 `c
 
 - `ctx.req` Node 的 request 对象
 - `ctx.res` Node 的 response 对象
+- `ctx.request` koa request 对象
+- `ctx.response` koa response 对象
+- `ctx.state` 在中间件传递信息的推荐命名空间。比如：`ctx.state.user = await User.find(id)`
+- `ctx.app` 应用实例引用
+- `ctx.cookies.get(name, [options])`
+- `ctx.cookies.set(name, value, [options])` 选项包括如下值：
+  - `maxAge`
+  - `signed`
+  - `expires`
+  - `path`
+  - `domain`
+  - `secure`
+  - `httpOnly`
+  - `overwrite`
+- `ctx.throw([status], [msg], [properties])`
+- `ctx.assert(value, [status], [msg], [properties])`
+- `ctx.respond` 设置为 false ，可以跳过 koa 的处理机制。**不建议**
 
 ### REF
 
 - http://koajs.com/#context
+- https://github.com/pillarjs/cookies
+- https://github.com/jshttp/http-assert

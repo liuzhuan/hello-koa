@@ -2,7 +2,7 @@
 
 next generation web framework for node.js
 
-Koa 官网的 logo 使用了 150px 的 Italiana 字体，优美间接。
+Koa 官网的 logo 使用了 150px 的 Italiana 字体，优美简洁。
 
 ## 简介
 
@@ -35,8 +35,6 @@ const app = require('./app')
 ```
 
 也可以使用 `env preset` 将目标选项设定为 `"node": "current"` 
-
-
 
 ## REF
 
